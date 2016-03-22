@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { "Andreas Tinoco Lobo" => "andreas@tinoco-lobo.at" }
   s.platform              = :ios
-  s.ios.deployment_target = "8.1"
+  s.ios.deployment_target = "8.0"
   s.source                = { :git => "https://github.com/aloco/SimpleButton.git", :tag => s.version }
   s.requires_arc          = true
   s.source_files          = "SimpleButton/*.swift"
